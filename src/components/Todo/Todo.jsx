@@ -12,8 +12,8 @@ function Todo() {
         <div className="todo">
             <Header title="Todo" />
             <Input 
-                setTodos={setTodos}
                 todos={todos}
+                setTodos={setTodos}
             />
             <TodoList 
                 todos={todos}
